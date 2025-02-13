@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+body {
+  font-family: "Lato", serif;
+  font-size: 1em;
+  color: rgb(139, 138, 138);
+  height: 100vh;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+h2,
+h3 {
+  color: black;
+}
+
+header {
+  background-color: rgb(48, 48, 60);
+  color: white;  
+  text-align: center;
+  padding: 10px 0;
+}
+
+.signup {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+  border-bottom: 3px solid black;
+}
+
+.signup p {
+  padding-bottom: 20px;
+  color: rgb(161, 159, 159);
+}
+
+legend {
+  margin-bottom: 10px;
+}
+
+.fieldset1,
+.fieldset2 {
+  width: 90%;
+  margin: auto;
+  border: none;
+}
+
+input::placeholder {
+  text-align: end;
+  margin-right: 10px;
+  font-style: italic;
+}
+
+input,
+select,
+textarea {
+  background-color: rgb(233, 231, 231);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: rgb(139, 138, 138);
+}
+
+.fieldset1 {
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+}
+
+.fieldset2 {
+  margin: 15px auto;
+}
+
+input,
+select {
+  border: none;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.fieldset1 label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+#zip {
+  width: 50%;
+}
+
+.fieldset2 legend {
+  margin-bottom: 10px;
+}
+
+.newsletter label,
+input[type="checkbox"],
+.news-format label,
+input[type="radio"] {
+  display: flex;
+  gap: 10px;
+  width: auto;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-top: 6px;
+}
+
+.fieldset1 input:focus,
+textarea,
+select {
+  outline-color: rgb(79, 79, 157);
+}
+
+.newsletter,
+.news-format {
+  margin: 10px 0;
+}
+
+label[for="news-format"] {
+  margin-bottom: 10px;
+}
+
+textarea {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+}
+
+button[type="submit"] {
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+  padding: 15px 35%;
+  background-color: rgb(34, 194, 181);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+footer p {
+  text-align: center;
+  margin: 20px auto;
+  padding-bottom: 10px;
+}
