@@ -84,7 +84,7 @@ select {
 }
 
 .fieldset1 label {
-  display: block;
+  display: flex;
   margin-bottom: 5px;
   margin-top: 10px;
 }
@@ -149,4 +149,54 @@ footer p {
   text-align: center;
   margin: 20px auto;
   padding-bottom: 10px;
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+
+  body {
+    width: 100%;
+  }
+
+  main {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .contact-info label,
+  input[type="text"],
+  select,
+  input[type="tel"] {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 15px auto;
+  }
+
+#city,
+#name,
+#address,
+#email,
+select,
+#phone {
+  position: absolute;
+  width: 40%;
+}
+
+.contact-info label {
+  width: 25%;
+  justify-content: flex-start;
+}
+
+#zip {
+  width: 25%;
+}
+
+#title {
+  width: 100%;
+}
+
 }
