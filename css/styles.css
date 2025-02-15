@@ -1,0 +1,216 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+body {
+  font-family: "Lato", serif;
+  font-size: 1em;
+  color: rgb(139, 138, 138);
+  height: 100vh;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+h2,
+h3 {
+  color: black;
+}
+
+header {
+  background-color: rgb(48, 48, 60);
+  color: white;  
+  text-align: center;
+  padding: 10px 0;
+}
+
+main {
+  background: rgb(223, 233, 246);
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  margin: 0;
+}
+  
+
+.signup {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+  border-bottom: 3px solid black;
+}
+
+.signup p {
+  padding-bottom: 20px;
+  color: rgb(161, 159, 159);
+}
+
+legend {
+  margin-bottom: 10px;
+}
+
+.fieldset1,
+.fieldset2 {
+  width: 90%;
+  margin: auto;
+  border: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  text-align: end;
+  margin-right: 10px;
+  font-style: italic;
+}
+
+input,
+select,
+textarea {
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: rgb(139, 138, 138);
+}
+
+.fieldset1 {
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+}
+
+.fieldset2 {
+  margin: 15px auto;
+}
+
+input,
+select {
+  border: none;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.fieldset1 label {
+  display: flex;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+#zip {
+  width: 50%;
+}
+
+.fieldset2 legend {
+  margin-bottom: 10px;
+}
+
+.newsletter label,
+input[type="checkbox"],
+.news-format label,
+input[type="radio"] {
+  display: flex;
+  gap: 10px;
+  width: auto;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-top: 6px;
+}
+
+.fieldset1 input:focus,
+textarea:focus,
+select:focus {
+  outline-color: #8498c5;
+  background-color: #fafafa;
+}
+
+.newsletter,
+.news-format {
+  margin: 10px 0;
+}
+
+label[for="news-format"] {
+  margin-bottom: 10px;
+}
+
+textarea {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+}
+
+button[type="submit"] {
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px;
+  background: rgb(48, 157, 48);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  justify-content: center;
+}
+
+footer p {
+  text-align: center;
+  margin: 20px auto;
+  padding-bottom: 10px;
+  font-style: italic;
+  color: #fafafa;
+}
+
+footer {
+  background: #30303c;
+  padding: 8px 0;
+}
+
+@media (min-width: 768px) {
+
+  body {
+    width: 100%;
+  }
+
+  main {
+    width: 60%;
+    margin: 60px auto;
+  }
+
+  .contact-info label,
+  input[type="text"],
+  select,
+  input[type="tel"] {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 15px auto;
+  }
+
+#city,
+#name,
+#address,
+#email,
+select,
+#phone {
+  position: absolute;
+  width: 40%;
+}
+
+.contact-info label {
+  width: 25%;
+  justify-content: flex-start;
+}
+
+#zip {
+  width: 25%;
+}
+
+
+}
