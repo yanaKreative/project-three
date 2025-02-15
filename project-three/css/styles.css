@@ -29,6 +29,11 @@ header {
   padding: 10px 0;
 }
 
+main {
+  background: linear-gradient(to top, white, rgb(216, 216, 251), rgb(212, 244, 212), white);
+}
+  
+
 .signup {
   width: 90%;
   margin: 20px auto;
@@ -61,7 +66,7 @@ input::placeholder {
 input,
 select,
 textarea {
-  background-color: rgb(233, 231, 231);
+  background-color: white;
   margin-bottom: 10px;
   border-radius: 5px;
   color: rgb(139, 138, 138);
@@ -112,9 +117,10 @@ input[type="radio"] {
 }
 
 .fieldset1 input:focus,
-textarea,
-select {
+textarea:focus,
+select:focus {
   outline-color: rgb(79, 79, 157);
+  background-color:rgb(213, 243, 241)
 }
 
 .newsletter,
@@ -138,7 +144,7 @@ button[type="submit"] {
   width: 90%;
   margin: 10px auto;
   padding: 15px 35%;
-  background-color: rgb(34, 194, 181);
+  background: radial-gradient(rgb(114, 61, 101), rgb(183, 183, 234));
   color: white;
   border-radius: 5px;
   border: none;
@@ -150,6 +156,10 @@ footer p {
   margin: 20px auto;
   padding-bottom: 10px;
   font-style: italic;
+}
+
+footer {
+  background: linear-gradient(to bottom, white, rgb(215, 215, 245));
 }
 
 @media (min-width: 768px) {
@@ -195,8 +205,5 @@ select,
   width: 25%;
 }
 
-#title {
-  width: 100%;
-}
 
 }
