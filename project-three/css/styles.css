@@ -30,7 +30,10 @@ header {
 }
 
 main {
-  background: linear-gradient(to top, white, rgb(216, 216, 251), rgb(212, 244, 212), white);
+  background: rgb(223, 233, 246);
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  margin: 0;
 }
   
 
@@ -119,8 +122,8 @@ input[type="radio"] {
 .fieldset1 input:focus,
 textarea:focus,
 select:focus {
-  outline-color: rgb(79, 79, 157);
-  background-color:rgb(213, 243, 241)
+  outline-color: #8498c5;
+  background-color: #fafafa;
 }
 
 .newsletter,
@@ -142,13 +145,14 @@ textarea {
 button[type="submit"] {
   display: flex;
   width: 90%;
-  margin: 10px auto;
-  padding: 15px 35%;
-  background: radial-gradient(rgb(114, 61, 101), rgb(183, 183, 234));
+  margin: 20px auto;
+  padding: 15px;
+  background: rgb(48, 157, 48);
   color: white;
   border-radius: 5px;
   border: none;
   font-size: 1rem;
+  justify-content: center;
 }
 
 footer p {
@@ -156,10 +160,12 @@ footer p {
   margin: 20px auto;
   padding-bottom: 10px;
   font-style: italic;
+  color: #fafafa;
 }
 
 footer {
-  background: linear-gradient(to bottom, white, rgb(215, 215, 245));
+  background: #30303c;
+  padding: 8px 0;
 }
 
 @media (min-width: 768px) {
@@ -170,7 +176,7 @@ footer {
 
   main {
     width: 60%;
-    margin: 0 auto;
+    margin: 60px auto;
   }
 
   .contact-info label,
