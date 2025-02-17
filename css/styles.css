@@ -124,7 +124,8 @@ input[type="radio"] {
 textarea:focus,
 select:focus {
   outline-color: #8498c5;
-  background-color: #fafafa;
+  background-color: #e0dfec;
+  box-shadow: 0 0 10px 2px #bababa;
 }
 
 .newsletter,
@@ -183,7 +184,8 @@ footer {
   .contact-info label,
   input[type="text"],
   select,
-  input[type="tel"] {
+  input[type="tel"], 
+  input[type="email"] {
     display: inline-flex;
     flex-direction: row;
     gap: 20px;

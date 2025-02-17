@@ -23,32 +23,32 @@
             <legend><h3>Contact Information</h3></legend>
             <div class="contact-info">
               <label for="name">Full Name</label>
-              <input type="text" id="name" name="user-name" placeholder="*Required">
+              <input type="text" id="name" name="user-name" placeholder="*Required" required>
             </div>
 
             <div class="contact-info">
               <label for="email">Email Address</label>
-              <input type="text" id="email" name="user-email" placeholder="*Required">
+              <input type="email" id="email" name="user-email" placeholder="*Required" required>
             </div>
               
             <div class="contact-info">
               <label for="phone">Phone Number</label>
-              <input type="tel" id="phone" name="user-phone"> 
+              <input type="tel" id="phone" name="user-phone" placeholder="*Required" required> 
             </div>  
 
             <div class="contact-info">
               <label for="address">Street Address</label>
-              <input type="text" id="address" name="user-address" placeholder="*Required">
+              <input type="text" id="address" name="user-address" placeholder="*Required" required>
             </div>
 
             <div class="contact-info">
               <label for="city">City</label>
-              <input type="text" id="city" name="user-city" placeholder="*Required">
+              <input type="text" id="city" name="user-city" placeholder="*Required" required>
             </div>
 
             <div class="contact-info">
               <label for="options">State</label>
-              <select id="options" name="user-state">
+              <select id="options" name="user-state" required>
               <option value="">Choose State</option>
               <option value="option2">New Jersey</option> 
               <option value="option3">Ohio</option> 
@@ -58,7 +58,7 @@
 
             <div class="contact-info">
               <label for="zip">Zip Code</label>
-              <input type="text" id="zip" name="user-zip" placeholder="*Required">
+              <input type="text" id="zip" name="user-zip" placeholder="*Required" required>
             </div>  
         </fieldset>
 
@@ -98,7 +98,7 @@
             </div>       
 
               <label for="other">Other topics you'd like to hear about</label>
-               <textarea id="other" name="other" rows="4" placeholder="*Required"></textarea>
+               <textarea id="other" name="other" rows="4" placeholder="*Required" required></textarea>
         </fieldset>
        
         <button type="submit">Sign Up</button>
